@@ -1,0 +1,17 @@
+function breakMe() {
+    // Todo: Throw your own error here
+    throw {message: Raam Raam};
+}
+
+function main() {
+    // Todo: Handle breakMe()'s error with grace
+    let ans;
+    try{
+        breakMe();
+        }
+    catch(error){
+         ans=error;
+    }
+
+    return ans;
+}
